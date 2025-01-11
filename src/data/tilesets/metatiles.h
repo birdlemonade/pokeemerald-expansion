@@ -207,3 +207,30 @@ const u16 gMetatileAttributes_MysteryEventsHouse[] = INCBIN_U16("data/tilesets/s
 
 const u16 gMetatiles_UnionRoom[] = INCBIN_U16("data/tilesets/secondary/union_room/metatiles.bin");
 const u16 gMetatileAttributes_UnionRoom[] = INCBIN_U16("data/tilesets/secondary/union_room/metatile_attributes.bin");
+
+const u16 gMetatiles_SpookyForest[] = INCBIN_U16("data/tilesets/secondary/spooky_forest/metatiles.bin");
+const u16 gMetatileAttributes_SpookyForest[] = INCBIN_U16("data/tilesets/secondary/spooky_forest/metatile_attributes.bin");
+
+const u16 gMetatiles_NewTown[] = INCBIN_U16("data/tilesets/secondary/new_town/metatiles.bin");
+const u16 gMetatileAttributes_NewTown[] = INCBIN_U16("data/tilesets/secondary/new_town/metatile_attributes.bin");
+
+const u16 gMetatiles_sandywilds[] = INCBIN_U16("data/tilesets/primary/sandywilds/metatiles.bin");
+const u16 gMetatileAttributes_sandywilds[] = INCBIN_U16("data/tilesets/primary/sandywilds/metatile_attributes.bin");
+
+const u16 gMetatiles_gTileset_Test[] = INCBIN_U16("data/tilesets/primary/test/metatiles.bin");
+const u16 gMetatileAttributes_gTileset_Test[] = INCBIN_U16("data/tilesets/primary/test/metatile_attributes.bin");
+
+const u16 gMetatiles_PorytilesTestMap[] = INCBIN_U16("data/tilesets/primary/porytiles_test_map/metatiles.bin");
+const u16 gMetatileAttributes_PorytilesTestMap[] = INCBIN_U16("data/tilesets/primary/porytiles_test_map/metatile_attributes.bin");
+
+const u16 gMetatiles_normal_cave[] = INCBIN_U16("data/tilesets/secondary/normal_cave/metatiles.bin");
+const u16 gMetatileAttributes_normal_cave[] = INCBIN_U16("data/tilesets/secondary/normal_cave/metatile_attributes.bin");
+
+const u16 gMetatiles_newmaintiles[] = INCBIN_U16("data/tilesets/primary/newmaintiles/metatiles.bin");
+const u16 gMetatileAttributes_newmaintiles[] = INCBIN_U16("data/tilesets/primary/newmaintiles/metatile_attributes.bin");
+
+const u16 gMetatiles_QuietTown[] = INCBIN_U16("data/tilesets/secondary/quiet_town/metatiles.bin");
+const u16 gMetatileAttributes_QuietTown[] = INCBIN_U16("data/tilesets/secondary/quiet_town/metatile_attributes.bin");
+
+const u16 gMetatiles_LeumenaTown[] = INCBIN_U16("data/tilesets/secondary/leumena_town/metatiles.bin");
+const u16 gMetatileAttributes_LeumenaTown[] = INCBIN_U16("data/tilesets/secondary/leumena_town/metatile_attributes.bin");

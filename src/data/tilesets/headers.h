@@ -825,3 +825,102 @@ const struct Tileset gTileset_UnionRoom =
     .metatileAttributes = gMetatileAttributes_UnionRoom,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_SpookyForest =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_SpookyForest,
+    .palettes = gTilesetPalettes_SpookyForest,
+    .metatiles = gMetatiles_SpookyForest,
+    .metatileAttributes = gMetatileAttributes_SpookyForest,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_NewTown =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_NewTown,
+    .palettes = gTilesetPalettes_NewTown,
+    .metatiles = gMetatiles_NewTown,
+    .metatileAttributes = gMetatileAttributes_NewTown,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_sandywilds =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_sandywilds,
+    .palettes = gTilesetPalettes_sandywilds,
+    .metatiles = gMetatiles_sandywilds,
+    .metatileAttributes = gMetatileAttributes_sandywilds,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_gTileset_Test =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_gTileset_Test,
+    .palettes = gTilesetPalettes_gTileset_Test,
+    .metatiles = gMetatiles_gTileset_Test,
+    .metatileAttributes = gMetatileAttributes_gTileset_Test,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PorytilesTestMap =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_PorytilesTestMap,
+    .palettes = gTilesetPalettes_PorytilesTestMap,
+    .metatiles = gMetatiles_PorytilesTestMap,
+    .metatileAttributes = gMetatileAttributes_PorytilesTestMap,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_normal_cave =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_normal_cave,
+    .palettes = gTilesetPalettes_normal_cave,
+    .metatiles = gMetatiles_normal_cave,
+    .metatileAttributes = gMetatileAttributes_normal_cave,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_newmaintiles =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_newmaintiles,
+    .palettes = gTilesetPalettes_newmaintiles,
+    .metatiles = gMetatiles_newmaintiles,
+    .metatileAttributes = gMetatileAttributes_newmaintiles,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_QuietTown =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_QuietTown,
+    .palettes = gTilesetPalettes_QuietTown,
+    .metatiles = gMetatiles_QuietTown,
+    .metatileAttributes = gMetatileAttributes_QuietTown,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_LeumenaTown =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_LeumenaTown,
+    .palettes = gTilesetPalettes_LeumenaTown,
+    .metatiles = gMetatiles_LeumenaTown,
+    .metatileAttributes = gMetatileAttributes_LeumenaTown,
+    .callback = NULL,
+};

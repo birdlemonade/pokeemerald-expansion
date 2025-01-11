@@ -403,10 +403,10 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
     [SPECIES_PIPLUP] =
     {
         .baseHP        = 53,
-        .baseAttack    = 51,
+        .baseAttack    = 61,
         .baseDefense   = 53,
         .baseSpeed     = 40,
-        .baseSpAttack  = 61,
+        .baseSpAttack  = 51,
         .baseSpDefense = 56,
         .types = MON_TYPES(TYPE_WATER),
         .catchRate = 45,
@@ -418,7 +418,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_1, EGG_GROUP_FIELD),
     #if P_UPDATED_ABILITIES >= GEN_9
-        .abilities = { ABILITY_TORRENT, ABILITY_NONE, ABILITY_COMPETITIVE },
+        .abilities = { ABILITY_FUR_COAT, ABILITY_NONE, ABILITY_DEFIANT },
     #else
         .abilities = { ABILITY_TORRENT, ABILITY_NONE, ABILITY_DEFIANT },
     #endif
@@ -470,10 +470,10 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
     [SPECIES_PRINPLUP] =
     {
         .baseHP        = 64,
-        .baseAttack    = 66,
+        .baseAttack    = 81,
         .baseDefense   = 68,
         .baseSpeed     = 50,
-        .baseSpAttack  = 81,
+        .baseSpAttack  = 66,
         .baseSpDefense = 76,
         .types = MON_TYPES(TYPE_WATER),
         .catchRate = 45,
@@ -485,7 +485,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_1, EGG_GROUP_FIELD),
     #if P_UPDATED_ABILITIES >= GEN_9
-        .abilities = { ABILITY_TORRENT, ABILITY_NONE, ABILITY_COMPETITIVE },
+        .abilities = { ABILITY_FUR_COAT, ABILITY_NONE, ABILITY_DEFIANT },
     #else
         .abilities = { ABILITY_TORRENT, ABILITY_NONE, ABILITY_DEFIANT },
     #endif
@@ -535,12 +535,12 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
 
     [SPECIES_EMPOLEON] =
     {
-        .baseHP        = 84,
-        .baseAttack    = 86,
-        .baseDefense   = 88,
-        .baseSpeed     = 60,
-        .baseSpAttack  = 111,
-        .baseSpDefense = 101,
+        .baseHP        = 85,
+        .baseAttack    = 120,
+        .baseDefense   = 98,
+        .baseSpeed     = 70,
+        .baseSpAttack  = 74,
+        .baseSpDefense = 108,
         .types = MON_TYPES(TYPE_WATER, TYPE_STEEL),
         .catchRate = 45,
     #if P_UPDATED_EXP_YIELDS >= GEN_8
@@ -557,7 +557,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_1, EGG_GROUP_FIELD),
     #if P_UPDATED_ABILITIES >= GEN_9
-        .abilities = { ABILITY_TORRENT, ABILITY_NONE, ABILITY_COMPETITIVE },
+        .abilities = { ABILITY_BATTLE_ARMOR, ABILITY_NONE, ABILITY_DEFIANT },
     #else
         .abilities = { ABILITY_TORRENT, ABILITY_NONE, ABILITY_DEFIANT },
     #endif
@@ -4399,7 +4399,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .levelUpLearnset = sSkorupiLevelUpLearnset,
         .teachableLearnset = sSkorupiTeachableLearnset,
         .eggMoveLearnset = sSkorupiEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_DRAPION}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 32, SPECIES_DRAPION}),
     },
 
     [SPECIES_DRAPION] =

@@ -5941,7 +5941,7 @@ Level: 39
 IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 
 === TRAINER_CALVIN_1 ===
-Name: CALVIN
+Name: Calin 
 Class: Youngster
 Pic: Youngster
 Gender: Male
@@ -5952,6 +5952,8 @@ AI: Check Bad Move
 Poochyena
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Bite
+-Tackle
 
 === TRAINER_BILLY ===
 Name: BILLY
@@ -9730,7 +9732,7 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Torchic
+Tepig
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -16873,3 +16875,51 @@ Double Battle: No
 Kyogre
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+
+=== TRAINER_SAMMY ===
+Name: Sammy 
+Class: Bug Catcher 
+Pic: Bug Catcher 
+Gender: Male
+Double Battle: No
+AI: Smart Trainer 
+
+Weedle @ Oran Berry
+Level: 5
+Ability: Poison Point
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
+Ball: Nest Ball
+-Poison Sting
+-Bug Bite 
+
+=== TRAINER_CALIN ===
+Name: Calin
+Class: Youngster 
+Pic: Youngster 
+Gender: Male
+Double Battle: No
+AI: Smart Trainer 
+
+Poochyena @ Oran Berry
+Level: 5
+Ability: Intimidate
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
+Ball: Poke Ball
+-Bite
+-Tackle 
+
+=== TRAINER_KOMIA ===
+Name: Komia
+Class: Lass 
+Pic: Lass 
+Gender: Female
+Double Battle: No
+AI: Smart Trainer 
+
+Cutiefly @ Oran Berry
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe 
+Ball: Heal Ball
+-Silver Wind
+-Fairy Wind 
