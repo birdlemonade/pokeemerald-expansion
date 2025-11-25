@@ -9674,7 +9674,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .baseHP        = 65,
         .baseAttack    = 125,
         .baseDefense   = 60,
-        .baseSpeed     = 105,
+        .baseSpeed     = 125,
         .baseSpAttack  = 95,
         .baseSpDefense = 60,
         .types = MON_TYPES(TYPE_FIGHTING),
@@ -9734,7 +9734,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
 #if P_FAMILY_DRUDDIGON
     [SPECIES_DRUDDIGON] =
     {
-        .baseHP        = 77,
+        .baseHP        = 110,
         .baseAttack    = 120,
         .baseDefense   = 90,
         .baseSpeed     = 48,
@@ -9750,7 +9750,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_DRAGON, EGG_GROUP_MONSTER),
-        .abilities = { ABILITY_ROUGH_SKIN, ABILITY_SHEER_FORCE, ABILITY_MOLD_BREAKER },
+        .abilities = { ABILITY_ROUGH_SKIN, ABILITY_DRAGONS_MAW, ABILITY_SHEER_FORCE },
         .bodyColor = BODY_COLOR_RED,
         .speciesName = _("Druddigon"),
         .cryId = CRY_DRUDDIGON,

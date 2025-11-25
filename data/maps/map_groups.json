@@ -50,10 +50,11 @@
 
   ],
   "gMapGroup_NewRoutes": [
-
+    "NewMap1"
   ],
   "gMapGroup_NewInteriors": [
-
+    "Bedroom",
+    "PlayerHome"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",

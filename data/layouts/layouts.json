@@ -4430,6 +4430,36 @@
       "secondary_tileset": "gTileset_LeumenaTown",
       "border_filepath": "data/layouts/LeumenaTown/border.bin",
       "blockdata_filepath": "data/layouts/LeumenaTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_BEDROOM",
+      "name": "Bedroom_Layout",
+      "width": 9,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/Bedroom/border.bin",
+      "blockdata_filepath": "data/layouts/Bedroom/map.bin"
+    },
+    {
+      "id": "LAYOUT_PLAYER_HOME",
+      "name": "PlayerHome_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/PlayerHome/border.bin",
+      "blockdata_filepath": "data/layouts/PlayerHome/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_MAP1",
+      "name": "NewMap1_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/NewMap1/border.bin",
+      "blockdata_filepath": "data/layouts/NewMap1/map.bin"
     }
   ]
 }

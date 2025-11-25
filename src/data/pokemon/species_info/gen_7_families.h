@@ -590,7 +590,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_1, EGG_GROUP_FIELD),
-        .abilities = { ABILITY_TORRENT, ABILITY_NONE, ABILITY_LIQUID_VOICE },
+        .abilities = { ABILITY_TORRENT, ABILITY_COMPETITIVE, ABILITY_LIQUID_VOICE },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Primarina"),
         .cryId = CRY_PRIMARINA,
@@ -1902,7 +1902,8 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .eggMoveLearnset = sRockruffEggMoveLearnset,
         .formSpeciesIdTable = sRockruffFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_SUN_STONE, SPECIES_LYCANROC_MIDDAY},
-                                {EVO_ITEM, ITEM_DUSK_STONE, SPECIES_LYCANROC_MIDNIGHT}),
+                                {EVO_ITEM, ITEM_MOON_STONE, SPECIES_LYCANROC_MIDNIGHT},
+                                {EVO_ITEM, ITEM_DAWN_STONE, SPECIES_LYCANROC_DUSK}),
     },
 
     [SPECIES_ROCKRUFF_OWN_TEMPO] =
@@ -1968,10 +1969,10 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
     [SPECIES_LYCANROC_MIDDAY] =
     {
         .baseHP        = 75,
-        .baseAttack    = 115,
+        .baseAttack    = 117,
         .baseDefense   = 65,
-        .baseSpeed     = 132,
-        .baseSpAttack  = 55,
+        .baseSpeed     = 130,
+        .baseSpAttack  = 45,
         .baseSpDefense = 65,
         .types = MON_TYPES(TYPE_ROCK),
         .catchRate = 90,
@@ -2029,11 +2030,11 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
 
     [SPECIES_LYCANROC_MIDNIGHT] =
     {
-        .baseHP        = 85,
-        .baseAttack    = 132,
+        .baseHP        = 90,
+        .baseAttack    = 127,
         .baseDefense   = 75,
         .baseSpeed     = 72,
-        .baseSpAttack  = 55,
+        .baseSpAttack  = 43,
         .baseSpDefense = 75,
         .types = MON_TYPES(TYPE_ROCK, TYPE_DARK),
         .catchRate = 90,
@@ -2092,7 +2093,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
     [SPECIES_LYCANROC_DUSK] =
     {
         .baseHP        = 65,
-        .baseAttack    = 120,
+        .baseAttack    = 122,
         .baseDefense   = 65,
         .baseSpeed     = 115,
         .baseSpAttack  = 55,
@@ -2106,7 +2107,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
-        .abilities = { ABILITY_TOUGH_CLAWS, ABILITY_SHEER_FORCE, ABILITY_NONE },
+        .abilities = { ABILITY_TOUGH_CLAWS, ABILITY_NONE, ABILITY_INNER_FOCUS },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Lycanroc"),
         .cryId = CRY_LYCANROC_DUSK,

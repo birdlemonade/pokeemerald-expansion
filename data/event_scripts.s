@@ -1154,3 +1154,9 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/PorytilesTestingGround/scripts.inc"
 
 	.include "data/maps/LeumenaTown/scripts.inc"
+
+	.include "data/maps/Bedroom/scripts.inc"
+
+	.include "data/maps/PlayerHome/scripts.inc"
+
+	.include "data/maps/NewMap1/scripts.inc"

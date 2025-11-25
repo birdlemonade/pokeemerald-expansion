@@ -1436,7 +1436,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
     [SPECIES_RAMPARDOS] =
     {
         .baseHP        = 97,
-        .baseAttack    = 165,
+        .baseAttack    = 175,
         .baseDefense   = 60,
         .baseSpeed     = 58,
         .baseSpAttack  = 65,
@@ -1450,7 +1450,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_ERRATIC,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER),
-        .abilities = { ABILITY_MOLD_BREAKER, ABILITY_NONE, ABILITY_SHEER_FORCE },
+        .abilities = { ABILITY_MOLD_BREAKER, ABILITY_ROCK_HEAD, ABILITY_RECKLESS },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Rampardos"),
         .cryId = CRY_RAMPARDOS,
@@ -1576,7 +1576,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_ERRATIC,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER),
-        .abilities = { ABILITY_STURDY, ABILITY_NONE, ABILITY_SOUNDPROOF },
+        .abilities = { ABILITY_STURDY, ABILITY_DAUNTLESS_SHIELD, ABILITY_SOUNDPROOF },
         .bodyColor = BODY_COLOR_GRAY,
         .speciesName = _("Bastiodon"),
         .cryId = CRY_BASTIODON,
@@ -6606,9 +6606,9 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
     [SPECIES_SHAYMIN_SKY] =
     {
         .baseHP        = 100,
-        .baseAttack    = 103,
+        .baseAttack    = 80,
         .baseDefense   = 75,
-        .baseSpeed     = 127,
+        .baseSpeed     = 150,
         .baseSpAttack  = 120,
         .baseSpDefense = 75,
         .types = MON_TYPES(TYPE_GRASS, TYPE_FLYING),
@@ -6697,12 +6697,12 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
 
 #define ARCEUS_SPECIES_INFO(type, typeName, iconPal)                                \
     {                                                                               \
-        .baseHP        = 120,                                                       \
-        .baseAttack    = 120,                                                       \
-        .baseDefense   = 120,                                                       \
-        .baseSpeed     = 120,                                                       \
-        .baseSpAttack  = 120,                                                       \
-        .baseSpDefense = 120,                                                       \
+        .baseHP        = 200,                                                       \
+        .baseAttack    = 230,                                                       \
+        .baseDefense   = 200,                                                       \
+        .baseSpeed     = 230,                                                       \
+        .baseSpAttack  = 230,                                                       \
+        .baseSpDefense = 200,                                                       \
         .types = MON_TYPES(type),                                                   \
         .catchRate = 3,                                                             \
         .expYield = ARCEUS_EXP_YIELD,                                               \
